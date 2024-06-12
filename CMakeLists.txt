@@ -1,7 +1,3 @@
-
-
-
-
 #libevent option
 set(EVENT__LIBRARY_TYPE STATIC)
 set(EVENT__DISABLE_OPENSSL ON)
