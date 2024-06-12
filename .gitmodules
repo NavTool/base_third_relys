@@ -1,0 +1,15 @@
+[submodule "hiredis"]
+	path = hiredis
+	url = https://github.com/redis/hiredis.git
+[submodule "libevent"]
+	path = libevent
+	url = https://github.com/libevent/libevent.git
+[submodule "spdlog"]
+	path = spdlog
+	url = https://github.com/gabime/spdlog.git
+[submodule "yaml-cpp"]
+	path = yaml-cpp
+	url = https://github.com/jbeder/yaml-cpp.git
+[submodule "json"]
+	path = json
+	url = https://github.com/nlohmann/json.git
