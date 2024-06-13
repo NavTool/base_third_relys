@@ -18,8 +18,8 @@ add_subdirectory(yaml-cpp)
 
 # add_subdirectory(libssh2-libssh2-1.11.0/)
 
-#json
-set(JSON_INCLUDE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/json/include")
+# #json
+# set(JSON_INCLUDE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/json/include")
 
-#spdlog
-set(SPDLOG_INCLUDE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/spdlog/include")
+# #spdlog
+# set(SPDLOG_INCLUDE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/spdlog/include")
