@@ -9,6 +9,7 @@ add_subdirectory(libevent)
 
 #hiredis option
 set(BUILD_SHARED_LIBS OFF)
+set(DISABLE_TESTS ON)
 add_subdirectory(hiredis)
 
 #yaml-cpp option
