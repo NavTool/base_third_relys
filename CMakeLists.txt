@@ -1,5 +1,6 @@
 #libevent option
-set(EVENT__LIBRARY_TYPE STATIC)
+# set(EVENT_LIBRARY_TYPE STATIC)
+# set(EVENT__LIBRARY_TYPE STATIC)
 set(EVENT__DISABLE_OPENSSL ON)
 set(EVENT__DISABLE_BENCHMARK ON)
 set(EVENT__DISABLE_TESTS ON)
@@ -9,6 +10,7 @@ add_subdirectory(libevent)
 
 #hiredis option
 set(BUILD_SHARED_LIBS OFF)
+set(DISABLE_TESTS ON)
 add_subdirectory(hiredis)
 
 #yaml-cpp option
