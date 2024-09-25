@@ -25,3 +25,6 @@ add_subdirectory(yaml-cpp)
 
 # #spdlog
 # set(SPDLOG_INCLUDE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/spdlog/include")
+
+
+add_subdirectory(rtklib)
