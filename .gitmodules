@@ -16,3 +16,6 @@
 [submodule "concurrentqueue"]
 	path = concurrentqueue
 	url = https://github.com/cameron314/concurrentqueue
+[submodule "rtklib"]
+	path = rtklib
+	url = https://github.com/NavTool/rtklib-2.4.3b34.git
